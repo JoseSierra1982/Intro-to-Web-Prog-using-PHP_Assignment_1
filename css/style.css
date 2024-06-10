@@ -1,0 +1,120 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p,a,li,figcaption,th,td,label,input{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar-brand img{
+  height: 80px;
+  width: auto;
+}
+.masthead{
+  height: 10vh;
+  width: 100%;
+  background-color: cadetblue;
+  background-size: cover;
+}
+.masthead div{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.masthead div h1{
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+}
+.form-row{
+  padding: 5%;
+}
+.form-row h2{
+  font-size: 2.5em;
+}
+.form-row .form-group{
+  margin: 15px 0px;
+}
+.submit-message{
+  text-align: center;
+}
+.form-row .insert
+{
+  font-weight: bold;
+
+}
+
+/********************Footer*****************************/
+/* General Footer Styles */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  border-top: 1px solid #e7e7e7;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .section {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+ 
+}
+
+footer h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+footer p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+footer .social-links a {
+  margin-right: 10px;
+}
+
+/* Legal Section Styles */
+footer .legal {
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #e7e7e7;
+  margin-top: 20px;
+}
+
+footer .legal p {
+  margin: 0;
+  font-size: 14px;
+}
+
